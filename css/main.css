@@ -1,5 +1,5 @@
-$(function(){
-
+$(function()
+{
     let showPopup = function(){
         $('.popup-container').css('display', 'flex')
     };
@@ -11,5 +11,17 @@ $(function(){
     let clearForm = function(){
         $('.popup-container > input[type="text"]').val('')
     };
-    
 });
+
+html, body{
+    height: 100%;
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: grey; 
+
+h1{
+    color: blue
+    }
+
+h2:{
+    color:yellow
+}
