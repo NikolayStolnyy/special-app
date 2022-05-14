@@ -14,5 +14,15 @@ $(function(){
     
 });
 
+html, body{
+    height: 100%;
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: grey; 
+}
+
 h1{
-color:green}
+color: blue}
+
+h2:{
+color:red
+}
